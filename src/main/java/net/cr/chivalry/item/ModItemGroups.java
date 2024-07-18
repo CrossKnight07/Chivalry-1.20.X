@@ -21,7 +21,6 @@ public class ModItemGroups {
 
                         entries.add(ModBlocks.STURDY_SPRUCE_LOG);
 
-
                     }).build());
 
 
