@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "minecraft:cobblestone"
+  },
+  "base": {
+    "item": "minecraft:netherite_sword"
+  },
+  "result": {
+    "item": "minecraft:wooden_sword"
+  },
+  "template": {
+    "item": "chivalry:rapier_stone"
+  }
+}

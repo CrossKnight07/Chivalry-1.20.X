@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "chivalry",
+	"version": "${version}",
+	"name": "Chivalry",
+	"description": "Chivalry is mod that will add new content all in a medieval style! Made by CR055",
+	"authors": [
+		"CR055"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/chivalry/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.cr.chivalry.Chivalry"
+		],
+		"client": [
+			"net.cr.chivalry.ChivalryClient"
+		],
+		"fabric-datagen": [
+			"net.cr.chivalry.ChivalryDataGenerator"
+		]
+	},
+	"mixins": [
+		"chivalry.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
