@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "chivalry:block/sound_block"
+    }
+  }
+}

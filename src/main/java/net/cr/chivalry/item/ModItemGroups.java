@@ -18,8 +18,10 @@ public class ModItemGroups {
                         entries.add(ModItems.RAPIER_STONE);
                         entries.add(ModItems.MORNING_STAR_STONE);
                         entries.add(ModItems.LINKED_CHAINMAIL_MESH);
+                        entries.add(ModItems.CREEPER_COOKIE);
 
                         entries.add(ModBlocks.STURDY_SPRUCE_LOG);
+                        entries.add(ModBlocks.SOUND_BLOCK);
 
                     }).build());
 

@@ -17,7 +17,7 @@ public class Chivalry implements ModInitializer {
 	public void onInitialize() {
 		ModItemGroups.registerItemGroups();
 
-		ModItems.reisterModItems();
+		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 	}
 }

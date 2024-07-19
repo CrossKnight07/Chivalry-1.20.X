@@ -15,6 +15,7 @@ public class ModItems {
     public static final Item MORNING_STAR_STONE = registerItem("morning_star_stone", new Item(new FabricItemSettings()));
     public static final Item LINKED_CHAINMAIL_MESH = registerItem("linked_chainmail_mesh", new Item(new FabricItemSettings()));
 
+    public static final Item CREEPER_COOKIE = registerItem("creeper_cookie", new Item(new FabricItemSettings().food(ModFoodComponents.CREEPER_COOKIE)));
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
 
@@ -24,7 +25,7 @@ public class ModItems {
         return Registry.register(Registries.ITEM, new Identifier(Chivalry.MOD_ID, name), item);
     }
 
-    public static void reisterModItems() {
+    public static void registerModItems() {
         Chivalry.LOGGER.info("Registering Mod Items for " + Chivalry.MOD_ID);
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::addItemsToIngredientItemGroup);
