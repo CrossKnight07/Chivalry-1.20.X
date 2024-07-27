@@ -21,8 +21,27 @@ public class ModModelProvider extends FabricModelProvider {
 
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
+        itemModelGenerator.register(ModItems.DAGGER_STONE, Models.GENERATED);
         itemModelGenerator.register(ModItems.RAPIER_STONE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.LONGSWORD_STONE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.BROADSWORD_STONE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.SPEAR_STONE, Models.GENERATED);
         itemModelGenerator.register(ModItems.MORNING_STAR_STONE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.BATTLE_AXE_STONE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.WAR_HAMMER_STONE, Models.GENERATED);
+
+        itemModelGenerator.register(ModItems.NETHERITE_DAGGER, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.NETHERITE_RAPIER, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.NETHERITE_LONGSWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.NETHERITE_BROADSWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.NETHERITE_SPEAR, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.NETHERITE_MORNING_STAR, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.NETHERITE_BATTLE_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.NETHERITE_WAR_HAMMER, Models.HANDHELD);
+
+        itemModelGenerator.register(ModItems.SMITHING_HAMMER, Models.HANDHELD);
+
+        itemModelGenerator.register(ModItems.IRON_PLATING, Models.GENERATED);
 
         itemModelGenerator.register(ModItems.CREEPER_COOKIE, Models.GENERATED);
 

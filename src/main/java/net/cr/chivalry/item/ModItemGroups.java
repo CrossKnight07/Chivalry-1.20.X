@@ -15,8 +15,26 @@ public class ModItemGroups {
             new Identifier(Chivalry.MOD_ID, "rapier_stone"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.chivalry"))
                     .icon(() -> new ItemStack(ModItems.RAPIER_STONE)).entries((displayContext, entries) -> {
+                        entries.add(ModItems.DAGGER_STONE);
                         entries.add(ModItems.RAPIER_STONE);
+                        entries.add(ModItems.LONGSWORD_STONE);
+                        entries.add(ModItems.BROADSWORD_STONE);
+                        entries.add(ModItems.SPEAR_STONE);
                         entries.add(ModItems.MORNING_STAR_STONE);
+                        entries.add(ModItems.BATTLE_AXE_STONE);
+                        entries.add(ModItems.WAR_HAMMER_STONE);
+
+                        entries.add(ModItems.NETHERITE_DAGGER);
+                        entries.add(ModItems.NETHERITE_RAPIER);
+                        entries.add(ModItems.NETHERITE_LONGSWORD);
+                        entries.add(ModItems.NETHERITE_BROADSWORD);
+                        entries.add(ModItems.NETHERITE_SPEAR);
+                        entries.add(ModItems.NETHERITE_MORNING_STAR);
+                        entries.add(ModItems.NETHERITE_BATTLE_AXE);
+                        entries.add(ModItems.NETHERITE_WAR_HAMMER);
+
+                        entries.add(ModItems.SMITHING_HAMMER);
+                        entries.add(ModItems.IRON_PLATING);
                         entries.add(ModItems.LINKED_CHAINMAIL_MESH);
                         entries.add(ModItems.CREEPER_COOKIE);
 

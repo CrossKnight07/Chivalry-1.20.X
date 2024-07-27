@@ -1,7 +1,27 @@
 {
+  "item.chivalry.dagger_stone": "Dagger Stone",
   "item.chivalry.rapier_stone": "Rapier Stone",
+  "item.chivalry.longsword_stone": "Longsword Stone",
+  "item.chivalry.broadsword_stone": "Broadsword Stone",
+  "item.chivalry.spear_stone": "Spear Stone",
   "item.chivalry.morning_star_stone": "Morning Star Stone",
+  "item.chivalry.battle_axe_stone": "Battle Axe Stone",
+  "item.chivalry.war_hammer_stone": "War Hammer Stone",
+
+  "item.chivalry.netherite_dagger": "Netherite Dagger",
+  "item.chivalry.netherite_rapier": "Netherite Rapier",
+  "item.chivalry.netherite_longsword": "Netherite Longsword",
+  "item.chivalry.netherite_broadsword": "Netherite Broadsword",
+  "item.chivalry.netherite_spear": "Netherite Spear",
+  "item.chivalry.netherite_morning_star": "Netherite Morning Star",
+  "item.chivalry.netherite_battle_axe": "Netherite Battle Axe",
+  "item.chivalry.netherite_war_hammer": "Netherite War Hammer",
+
+  "item.chivalry.smithing_hammer": "Smithing Hammer",
+
+  "item.chivalry.iron_plating": "Iron Plating",
   "item.chivalry.linked_chainmail_mesh": "Linked Chainmail Mesh",
+
   "item.chivalry.creeper_cookie": "Creeper Cookie",
 
   "block.chivalry.sturdy_spruce_log": "Sturdy Spruce Log",
