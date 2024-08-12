@@ -1,6 +1,6 @@
 package net.cr.chivalry.datagen;
 
-import net.cr.chivalry.block.ModBlocks;
+
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
 import net.minecraft.registry.RegistryKeys;
@@ -20,9 +20,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
     protected void configure(RegistryWrapper.WrapperLookup arg) {
         getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE);
 
-        getOrCreateTagBuilder(BlockTags.AXE_MINEABLE)
-                .add(ModBlocks.STURDY_SPRUCE_LOG)
-                .add(ModBlocks.SOUND_BLOCK);
+        getOrCreateTagBuilder(BlockTags.AXE_MINEABLE);
 
         getOrCreateTagBuilder(BlockTags.SHOVEL_MINEABLE);
 

@@ -1,9 +1,9 @@
 package net.cr.chivalry;
 
 
-import net.cr.chivalry.block.ModBlocks;
 import net.cr.chivalry.item.ModItemGroups;
 import net.cr.chivalry.item.ModItems;
+import net.cr.chivalry.util.ModCustomTrades;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -18,6 +18,7 @@ public class Chivalry implements ModInitializer {
 		ModItemGroups.registerItemGroups();
 
 		ModItems.registerModItems();
-		ModBlocks.registerModBlocks();
+
+		ModCustomTrades.registerCustomTrades();
 	}
 }

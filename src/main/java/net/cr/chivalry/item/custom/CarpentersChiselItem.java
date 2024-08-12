@@ -1,16 +1,18 @@
 package net.cr.chivalry.item.custom;
 
 import net.minecraft.client.item.TooltipContext;
-import net.minecraft.item.*;
+import net.minecraft.item.AxeItem;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.ToolMaterial;
 import net.minecraft.text.Text;
 import net.minecraft.world.World;
 import org.jetbrains.annotations.Nullable;
 
 import java.util.List;
 
-public class SmithingHammerItem extends PickaxeItem {
+public class CarpentersChiselItem extends AxeItem {
 
-    public SmithingHammerItem(ToolMaterial toolMaterial, int attackDamage, float miningSpeed, Settings settings) {
+    public CarpentersChiselItem(ToolMaterial toolMaterial, int attackDamage, float miningSpeed, Settings settings) {
         super(toolMaterial, attackDamage, miningSpeed, settings);
     }
 
@@ -32,7 +34,7 @@ public class SmithingHammerItem extends PickaxeItem {
 
     @Override
     public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
-        tooltip.add(Text.translatable("tooltip.chivalry.smithing_hammer.tooltip"));
+        tooltip.add(Text.translatable("tooltip.chivalry.carpenters_chisel.tooltip"));
         super.appendTooltip(stack, world, tooltip, context);
     }
 
