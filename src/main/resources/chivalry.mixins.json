@@ -4,6 +4,7 @@
   "compatibilityLevel": "JAVA_17",
   "mixins": [
     "ExampleMixin",
+    "RapierMixin$LivingEntityMixin",
     "SmithingMixin$SmithingScreenHandlerMixin"
   ],
   "injectors": {
