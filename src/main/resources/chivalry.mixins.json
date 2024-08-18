@@ -3,7 +3,8 @@
   "package": "net.cr.chivalry.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
-    "ExampleMixin",
+    "NoSweepAttackMixin",
+    "NoSweepingEnchantMixin",
     "RapierMixin$LivingEntityMixin",
     "SmithingMixin$SmithingScreenHandlerMixin"
   ],

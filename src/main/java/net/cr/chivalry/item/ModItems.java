@@ -1,10 +1,7 @@
 package net.cr.chivalry.item;
 
 import net.cr.chivalry.Chivalry;
-import net.cr.chivalry.item.custom.CarpentersChiselItem;
-import net.cr.chivalry.item.custom.DaggerItem;
-import net.cr.chivalry.item.custom.RapierItem;
-import net.cr.chivalry.item.custom.SmithingHammerItem;
+import net.cr.chivalry.item.custom.*;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
@@ -39,11 +36,11 @@ public class ModItems {
     public static final Item NETHERITE_RAPIER = registerItem("netherite_rapier",
             new RapierItem(ToolMaterials.NETHERITE, 2, -2.4f, new Item.Settings().fireproof()));
     public static final Item NETHERITE_LONGSWORD = registerItem("netherite_longsword",
-            new SwordItem(ToolMaterials.NETHERITE, 3, -2.4f, new Item.Settings().fireproof()));
+            new ReachModifyingWeapon(ToolMaterials.NETHERITE, 3, -2.4f, new Item.Settings().fireproof(), 2));
     public static final Item NETHERITE_BROADSWORD = registerItem("netherite_broadsword",
-            new SwordItem(ToolMaterials.NETHERITE, 7, -3.5f, new Item.Settings().fireproof()));
+            new ReachModifyingWeapon(ToolMaterials.NETHERITE, 7, -3.5f, new Item.Settings().fireproof(), 2));
     public static final Item NETHERITE_SPEAR = registerItem("netherite_spear",
-            new SwordItem(ToolMaterials.NETHERITE, 3, -2.4f, new Item.Settings().fireproof()));
+            new SpearItem(ToolMaterials.NETHERITE, 3, -2.4f, new Item.Settings().fireproof()));
     public static final Item NETHERITE_MORNING_STAR = registerItem("netherite_morning_star",
             new SwordItem(ToolMaterials.NETHERITE, 4, -3.0f, new Item.Settings().fireproof()));
     public static final Item NETHERITE_BATTLE_AXE = registerItem("netherite_battle_axe",
